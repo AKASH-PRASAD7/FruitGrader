@@ -19,7 +19,7 @@ export default function Home() {
         </h4>
         <Link
           className="bg-gray-300 mb-4 hover:bg-gray-400 rounded-full font-semibold text-2xl w-64 text-center p-2"
-          href={""}
+          href="/login"
         >
           Next {"→"}
         </Link>
