@@ -1,0 +1,67 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "image": "https://i.pinimg.com/736x/72/d7/5c/72d75cf63786754fcde363d5cc624376.jpg",
+      "name": "Orange",
+      "isGood": true,
+      "clicked": false
+    },
+    {
+      "id": 2,
+      "image": "https://as2.ftcdn.net/v2/jpg/01/39/74/35/1000_F_139743534_Sg2CP2r3T8D5jOXML7FsFFDbGPCS2suK.jpg",
+      "name": "Watermelon",
+      "isGood": false,
+      "clicked": false
+    },
+    {
+      "id": 3,
+      "image": "https://previews.123rf.com/images/usersam2007/usersam20071206/usersam2007120600011/13995061-single-strawberry-fruit-isolated-on-white-background.jpg",
+      "name": "Strawberry",
+      "isGood": true,
+      "clicked": false
+    },
+    {
+      "id": 4,
+      "image": "https://c8.alamy.com/zooms/9/8478b165af724dc88f3cc461c5dd38cb/w25k92.jpg",
+      "name": "Blackberry",
+      "isGood": false,
+      "clicked": false
+    },
+    {
+      "id": 5,
+      "image": "https://media.istockphoto.com/id/1198706343/photo/one-mango-with-leaves-isolated-on-a-white-background.jpg?s=612x612&w=0&k=20&c=z3lUncC5mQqODryM7snyF-RDg0QJeOj4WkGAQQSmH1U=",
+      "name": "Mango",
+      "isGood": true,
+      "clicked": false
+    },
+    {
+      "id": 6,
+      "image": "https://i.pinimg.com/736x/17/98/92/17989267fc892bc060ffde0a2d020bb6.jpg",
+      "name": "Apple",
+      "isGood": true,
+      "clicked": false
+    },
+    {
+      "id": 7,
+      "image": "https://png.pngtree.com/thumb_back/fh260/background/20220620/pngtree-two-overripe-bananas-rotten-bad-fruit-photo-image_24885936.jpg",
+      "name": "Banana",
+      "isGood": false,
+      "clicked": false
+    },
+    {
+      "id": 8,
+      "image": "https://c8.alamy.com/comp/MR4MXY/rotten-strawberry-isolated-on-white-background-moldy-fruits-MR4MXY.jpg",
+      "name": "Strawberry",
+      "isGood": false,
+      "clicked": false
+    },
+    {
+      "id": 9,
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/026/296/218/small/yellow-rotten-sweet-cherry-on-a-white-isolated-background-photo.jpg",
+      "name": "Cherry",
+      "isGood": false,
+      "clicked": false
+    }
+  ]
+}

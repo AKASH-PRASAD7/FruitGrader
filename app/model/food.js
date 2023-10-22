@@ -1,21 +1,16 @@
-const mongoose = require("mongoose");
+import { Schema, model, models } from "mongoose";
 
-// Define the Mongoose schema
-const foodSchema = new mongoose.Schema({
+const FoodSchema = new Schema({
   name: {
     type: String,
-    required: true,
+  },
+  image: {
+    type: String,
   },
   isGood: {
     type: Boolean,
   },
-  image: {
-    type: String,
-    required: true,
-  },
 });
 
-// Create a Mongoose model based on the schema
-const Food = mongoose.model("Food", foodSchema);
-
-module.exports = Food;
+const food = models.food || model("Food", FoodSchema);
+export default food;

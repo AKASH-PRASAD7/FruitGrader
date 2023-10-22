@@ -1,6 +1,11 @@
-import React from "react";
+"use client";
 import { FaGoogle } from "react-icons/fa6";
+import { useRouter } from "next/navigation";
 const page = () => {
+  const router = useRouter();
+  const handleClick = () => {
+    router.push("/fruit-grader");
+  };
   return (
     <section className="m-4">
       <div className="flex flex-col gap-4 items-center justify-evenly">
@@ -9,7 +14,10 @@ const page = () => {
           Help Solve Hunger
         </p>
         <p className="text-center">Get Started by creating your account</p>
-        <button className="mb-6 mx-auto text-center flex items-center justify-evenly bg-black hover:bg-gray-800 text-white font-bold w-64 h-12 rounded-full">
+        <button
+          onClick={() => handleClick()}
+          className="mb-6 mx-auto text-center flex items-center justify-evenly bg-black hover:bg-gray-800 text-white font-bold w-64 h-12 rounded-full"
+        >
           <FaGoogle className="text-2xl" /> <span>SignIn with Google</span>
         </button>
         <p className="text-gray-500 text-center">

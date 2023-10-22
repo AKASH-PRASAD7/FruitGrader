@@ -16,10 +16,21 @@ function FoodForm() {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle the submission of the food data here
-    console.log("Food Data:", food);
+    try {
+      const res = await fetch("/api/food", {
+        method: "POST",
+        body: JSON.stringify({
+          name: food.name,
+          image: food.image,
+          isGood: null,
+        }),
+      });
+      console.log(res);
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   return (
