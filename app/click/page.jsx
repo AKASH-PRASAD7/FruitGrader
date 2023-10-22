@@ -28,7 +28,7 @@ const FoodCard = ({
               onClick={() => handleClick()}
               className="bg-cyan-500 hover:bg-cyan-600 text-white w-16 h-8 font-semibold  rounded-full"
             >
-              Sanp
+              Snap
             </button>
           </>
         )}
